@@ -17,6 +17,17 @@ h2 {
   transition: font-size 1s linear;
 }
 
+.computer-Container {
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  width: 400px;
+  border: solid darkgoldenrod;
+}
+
+
 
 h1:hover{font-size: 38px}
 
