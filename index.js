@@ -14,7 +14,8 @@ const whyPcDiv = document.querySelector('.why-Pc')
 const highButton =  document.querySelector('.high')
 const midButton =  document.querySelector('.mid')
 const lowButton =  document.querySelector('.low')
-
+const computerImageTag = document.createElement('img')
+const aboutThisComputer = document.createElement('p')
 
 
 //fetch that grabs the suggested computer database
@@ -25,7 +26,7 @@ fetch(cpuUrl)
     //this case selects the enthusiast build
    
 highButton.addEventListener('click', (e) => {
-   
+    
     const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
     createCpuTable(enthusiastBuildParts)
     pictureAndInfo(enthusiastBuildParts)
@@ -45,10 +46,8 @@ lowButton.addEventListener('click', (e) => {
     pictureAndInfo(enthusiastBuildParts)
 })
 
-
     
 })
-
 const createCpuTable = cpuObject => {
     //builds the computer table based on the cpuObject passed in
     cpuTablePart.textContent = cpuObject.cpu
@@ -65,13 +64,14 @@ const createCpuTable = cpuObject => {
 
 const pictureAndInfo = cpuObject => {
     //image section
-    const computerImageTag = document.createElement('img')
+    
     computerImageTag.src = cpuObject.caseImage
+    // console.log(cpuObject.caseImage)
     computerImageTag.alt = 'Image of a computer built in this case!'
     computerPicDiv.append(computerImageTag)
 
     //text section
-    const aboutThisComputer = document.createElement('p')
+
     aboutThisComputer.innerText = cpuObject.description
     whyPcDiv.append(aboutThisComputer)
     console.log(aboutThisComputer)
