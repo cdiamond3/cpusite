@@ -15,7 +15,11 @@ const highButton =  document.querySelector('.high')
 const midButton =  document.querySelector('.mid')
 const lowButton =  document.querySelector('.low')
 const computerImageTag = document.createElement('img')
+computerImageTag.className = "compImage"
 const aboutThisComputer = document.createElement('p')
+aboutThisComputer.className = "computerInfo"
+
+
 
 
 //fetch that grabs the suggested computer database
