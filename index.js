@@ -11,6 +11,10 @@ const powerSupplyTable = document.querySelector('.power-Supply')
 const operatingSystemTable = document.querySelector('.operating-System')
 const computerPicDiv = document.querySelector('.computer-Pic')
 const whyPcDiv = document.querySelector('.why-Pc')
+const highButton =  document.querySelector('.high')
+const midButton =  document.querySelector('.mid')
+const lowButton =  document.querySelector('.low')
+
 
 
 //fetch that grabs the suggested computer database
@@ -19,9 +23,28 @@ fetch(cpuUrl)
 .then(response => response.json()) //turn response to JSON
 .then(computerBuilds=> { //with that object
     //this case selects the enthusiast build
+   
+highButton.addEventListener('click', (e) => {
+   
     const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
     createCpuTable(enthusiastBuildParts)
     pictureAndInfo(enthusiastBuildParts)
+})
+
+midButton.addEventListener('click', (e) => {
+    
+    const enthusiastBuildParts = computerBuilds[0].epicGamer.parts
+    createCpuTable(enthusiastBuildParts)
+    pictureAndInfo(enthusiastBuildParts)
+})
+
+lowButton.addEventListener('click', (e) => {
+    
+    const enthusiastBuildParts = computerBuilds[0].surfinAndStreaming.parts
+    createCpuTable(enthusiastBuildParts)
+    pictureAndInfo(enthusiastBuildParts)
+})
+
 
     
 })
