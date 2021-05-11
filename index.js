@@ -24,6 +24,7 @@ fetch(cpuUrl)
 })
 
 const createCpuTable = cpuObject => {
+    //builds the computer table based on the cpuObject passed in
     cpuTablePart.textContent = cpuObject.cpu
     coolingTablePart.textContent = cpuObject.cooling
     motherboardTable.textContent = cpuObject.motherboard
