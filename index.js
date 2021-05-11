@@ -1,55 +1,36 @@
-// let subjectObject = {
-//     "Enthusiast": {
-
-//     },
-//     "Gamer": {
-
-//     },
-//     "Casual": {
-
-//     }
-// }
-// window.onload = function() {
-//   let typeSelect = document.getElementById("typeCpu");
-//   let topicSel = document.getElementById("budget");
-  
-//   for (let x in subjectObject) {
-//     typeSelect.options[typeSelect.options.length] = new Option(x, x);
-//   }
-//   subjectSel.onchange = function() {
-//     //empty Chapters- and Topics- dropdowns
-//     topicSel.length = 1;
-//     //display correct values
-//     for (let y in subjectObject[this.value]) {
-//       topicSel.options[topicSel.options.length] = new Option(y, y);
-//     }
-//   }
-//   topicSel.onchange = function() {
-//     //empty Chapters dropdown
-//     chapterSel.length = 1;
-//     //display correct values
-//     let z = subjectObject[subjectSel.value][this.value];
-//     for (let i = 0; i < z.length; i++) {
-//       chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-//     }
-//   }
-// }
+//variable declarations that grab the table data elements in html
 const computerContainer = document.querySelector('.computer-Container')
-const cpuData = document.querySelector('cpu')
+const cpuTablePart = document.querySelector('.cpu')
+const coolingTablePart = document.querySelector('.cooling')
+const motherboardTable = document.querySelector('.motherboard')
+const gpuTable = document.querySelector('.gpu')
+const ramTable = document.querySelector('.ram')
+const storageTable = document.querySelector('.storage')
+const caseTable = document.querySelector('.case')
+const powerSupplyTable = document.querySelector('.power-Supply')
+const operatingSystemTable = document.querySelector('.operating-System')
 
-
+//fetch that grabs the suggested computer database
 const cpuUrl = 'http://localhost:3000/Suggested-Computer'
 fetch(cpuUrl)
-.then(response => response.json())
-.then(computerBuilds=> {
+.then(response => response.json()) //turn response to JSON
+.then(computerBuilds=> { //with that object
 
-    const enthusiastBuild = computerBuilds[0]
-    console.log(enthusiastBuild.enthusiast)
+    //this case selects the enthusiast build
+    const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
+    console.log(enthusiastBuildParts[0])
     
-    //create a table to display desired computer build
-   
-    
-    
-
-    // computerContainer.append(table)
+    console.log(createCpuTable(enthusiastBuildParts))
 })
+
+const createCpuTable = cpuObject => {
+    cpuTablePart.textContent = cpuObject.cpu
+    coolingTablePart.textContent = cpuObject.cooling
+    motherboardTable.textContent = cpuObject.motherboard
+    gpuTable.textContent = cpuObject.gpu
+    ramTable.textContent = cpuObject.ram
+    storageTable.textContent = cpuObject.storage
+    caseTable.textContent = cpuObject.case
+    powerSupplyTable.textContent = cpuObject.powerSupply
+    operatingSystemTable.textContent = cpuObject.operatingSystem
+}

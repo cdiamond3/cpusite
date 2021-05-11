@@ -6,14 +6,15 @@
                 "parts": {
                     "cpu": "AMD Ryzen Threadripper 3960X",
                     "cooling": "AIO",
-                    "Motherboard": "ASUS PRIME TRX40-PRO",
+                    "motherboard": "ASUS PRIME TRX40-PRO",
                     "gpu": "Invidia RTX 3090",
                     "ram": "32gb",
                     "storage": "NVME M.2",
-                    "Case": "Lian Li PC-O11 Dynamic",
-                    "PowerSupply": "Corsair HX Platinum",
-                    "Operating-System": "Windows 10 Home",
-                    "Description": "This PC is a no expenses spared build. It includes all of the most expensive components for "                   
+                    "case": "Lian Li PC-O11 Dynamic",
+                    "powerSupply": "Corsair HX Platinum",
+                    "operatingSystem": "Windows 10 Home",
+                    "description": "This PC is a no expenses spared build. It includes all of the most expensive components for",                   
+                    "caseImage": "some url"
                 }
             }
 
