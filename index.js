@@ -9,18 +9,21 @@ const storageTable = document.querySelector('.storage')
 const caseTable = document.querySelector('.case')
 const powerSupplyTable = document.querySelector('.power-Supply')
 const operatingSystemTable = document.querySelector('.operating-System')
+const computerPicDiv = document.querySelector('.computer-Pic')
+const whyPcDiv = document.querySelector('.why-Pc')
+
 
 //fetch that grabs the suggested computer database
 const cpuUrl = 'http://localhost:3000/Suggested-Computer'
 fetch(cpuUrl)
 .then(response => response.json()) //turn response to JSON
 .then(computerBuilds=> { //with that object
-
     //this case selects the enthusiast build
     const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
-    console.log(enthusiastBuildParts[0])
+    createCpuTable(enthusiastBuildParts)
+    pictureAndInfo(enthusiastBuildParts)
+
     
-    console.log(createCpuTable(enthusiastBuildParts))
 })
 
 const createCpuTable = cpuObject => {
@@ -35,3 +38,20 @@ const createCpuTable = cpuObject => {
     powerSupplyTable.textContent = cpuObject.powerSupply
     operatingSystemTable.textContent = cpuObject.operatingSystem
 }
+
+
+const pictureAndInfo = cpuObject => {
+    //image section
+    const computerImageTag = document.createElement('img')
+    computerImageTag.src = cpuObject.caseImage
+    computerImageTag.alt = 'Image of a computer built in this case!'
+    computerPicDiv.append(computerImageTag)
+
+    //text section
+    const aboutThisComputer = document.createElement('p')
+    aboutThisComputer.innerText = cpuObject.description
+    whyPcDiv.append(aboutThisComputer)
+    console.log(aboutThisComputer)
+   
+}
+
