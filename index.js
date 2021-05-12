@@ -18,33 +18,37 @@ const computerImageTag = document.createElement('img')
 computerImageTag.className = "compImage"
 const aboutThisComputer = document.createElement('p')
 aboutThisComputer.className = "computerInfo"
+const searchBar = document.querySelector('#search')
+const filterList = document.querySelector('#filterList')
 
 
 
 
 //fetch that grabs the suggested computer database
 const cpuUrl = 'http://localhost:3000/Suggested-Computer'
+const partsUrl = "http://localhost:3000/allParts"
+
 fetch(cpuUrl)
 .then(response => response.json()) //turn response to JSON
 .then(computerBuilds=> { //with that object
     //this case selects the enthusiast build
-highButton.addEventListener('click', (e) => {
-    const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
-    createCpuTable(enthusiastBuildParts)
-    pictureAndInfo(enthusiastBuildParts)
-})
+    highButton.addEventListener('click', (e) => {
+        const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
+        createCpuTable(enthusiastBuildParts)
+        pictureAndInfo(enthusiastBuildParts)
+    })
 
-midButton.addEventListener('click', (e) => {
-    const epicGamer = computerBuilds[0].epicGamer.parts
-    createCpuTable(epicGamer)
-    pictureAndInfo(epicGamer)
-})
+    midButton.addEventListener('click', (e) => {
+        const epicGamer = computerBuilds[0].epicGamer.parts
+        createCpuTable(epicGamer)
+        pictureAndInfo(epicGamer)
+    })
 
-lowButton.addEventListener('click', (e) => {
-    const surfinAndStreaming = computerBuilds[0].surfinAndStreaming.parts
-    createCpuTable(surfinAndStreaming)
-    pictureAndInfo(surfinAndStreaming)
-})
+    lowButton.addEventListener('click', (e) => {
+        const surfinAndStreaming = computerBuilds[0].surfinAndStreaming.parts
+        createCpuTable(surfinAndStreaming)
+        pictureAndInfo(surfinAndStreaming)
+    })
 
 
     
@@ -74,7 +78,36 @@ const pictureAndInfo = cpuObject => {
     whyPcDiv.append(aboutThisComputer)
 }
 
+fetch(partsUrl)
+.then(response => response.json())
+.then(cpuPartsObject => {
+    const partList = cpuPartsObject.parts
+
     
-// const searchFunction = partListObject => {
+    partList.case.forEach(string =>{
+        const caseLi = document.createElement('li')
+        caseLi.textContent = string
+        caseLi.className = "returnedParts"
+        filterList.append(caseLi)
+    })
+
+
+    searchBar.addEventListener('keyup', searchParts)
     
-// }
+})
+function searchParts(event){
+    const text = event.target.value.toLowerCase();
+    
+    document.querySelectorAll('.returnedParts').forEach(function(part){
+
+        const partName = part.innerText
+        
+        if(partName.toLowerCase().indexOf(text) != -1){
+            part.style.display = 'block'
+        } else {
+            part.style.display = 'none'
+        }
+    })
+
+
+} 
