@@ -58,6 +58,8 @@ footer {
 } */
 
 .content-table{
+  position: relative;
+  left: 5%;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -181,4 +183,19 @@ h3 {
   flex-wrap: wrap;
   display: flex;
   justify-content:right;
+}
+
+.searchInput{
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-color: black;
+}
+
+.comp {
+  position: relative;
+  left: 5%;
 }

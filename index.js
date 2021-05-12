@@ -29,24 +29,21 @@ fetch(cpuUrl)
 .then(computerBuilds=> { //with that object
     //this case selects the enthusiast build
 highButton.addEventListener('click', (e) => {
-    
     const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
     createCpuTable(enthusiastBuildParts)
     pictureAndInfo(enthusiastBuildParts)
 })
 
 midButton.addEventListener('click', (e) => {
-    
-    const enthusiastBuildParts = computerBuilds[0].epicGamer.parts
-    createCpuTable(enthusiastBuildParts)
-    pictureAndInfo(enthusiastBuildParts)
+    const epicGamer = computerBuilds[0].epicGamer.parts
+    createCpuTable(epicGamer)
+    pictureAndInfo(epicGamer)
 })
 
 lowButton.addEventListener('click', (e) => {
-    
-    const enthusiastBuildParts = computerBuilds[0].surfinAndStreaming.parts
-    createCpuTable(enthusiastBuildParts)
-    pictureAndInfo(enthusiastBuildParts)
+    const surfinAndStreaming = computerBuilds[0].surfinAndStreaming.parts
+    createCpuTable(surfinAndStreaming)
+    pictureAndInfo(surfinAndStreaming)
 })
 
 
@@ -68,18 +65,16 @@ const createCpuTable = cpuObject => {
 
 const pictureAndInfo = cpuObject => {
     //image section
-    
     computerImageTag.src = cpuObject.caseImage
     // console.log(cpuObject.caseImage)
     computerImageTag.alt = 'Image of a computer built in this case!'
     computerPicDiv.append(computerImageTag)
-    
     //text section
-    
     aboutThisComputer.innerText = cpuObject.description
     whyPcDiv.append(aboutThisComputer)
-    console.log(aboutThisComputer)
-    
 }
 
     
+// const searchFunction = partListObject => {
+    
+// }
