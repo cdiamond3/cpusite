@@ -48,6 +48,44 @@
                     "description": "This machine is perfect for those that want a computer for general surfing and watching shows on your faovirte streaming platform. It is budget friendly and incredibly mobile - you can surf the web and stream as long as you are connected to the internet!",                   
                     "caseImage": "pc-Images/ASUS-L203MA-DS04-VivoBook-L203MA-Laptop.jpg"
                 }
+            },
+                "allParts":{
+                    "price": 100000,
+                    "parts": {
+                        "cpu": "Intel Celeron N4000 Processor",
+                        "cooling": "pre-installed",
+                        "motherboard": "Proprietary to Laptop",
+                        "gpu": "Intel UHD Graphics 600",
+                        "ram": "4 GB",
+                        "storage": "64 GB SSD",
+                        "case": "ASUS L203MA-DS04 VivoBook L203MA Laptop",
+                        "powerSupply": "included with laptop",
+                        "operatingSystem": "Windows 10 Home",
+                        "description": "This machine is perfect for those that want a computer for general surfing and watching shows on your faovirte streaming platform. It is budget friendly and incredibly mobile - you can surf the web and stream as long as you are connected to the internet!",                   
+                        "caseImage": "pc-Images/ASUS-L203MA-DS04-VivoBook-L203MA-Laptop.jpg",
+                        "cpu1": "Intel Core i3-10100f",
+                        "cooling1": "included with CPU",
+                        "motherboard1": "MSI B460M-A PRO",
+                        "gpu1": "XFX RX 5500 XT",
+                        "ram1": "16 GB",
+                        "storage1": "ADATA 480GB SSD",
+                        "case1": "AeroCool Cylon",
+                        "powerSupply1": "Gigabyte 650W",
+                        "operatingSystem1": "Windows 10 Home",
+                        "description1": "This pc is right for you if you are are trying to play video games at 1080p on medium-high settings. It will run all of the popular games well, and is a great place to start if you are trying to be kind to your wallet!",                   
+                        "caseImage1": "./pc-Images/Cylon-PanelOff.jpeg",
+                        "cpu2": "AMD Ryzen Threadripper 3969X",
+                        "cooling2": "Corsair iCUE H150i",
+                        "motherboard2": "ASUS PRIME TRX40-PRO",
+                        "gpu2": "Invidia RTX 3090",
+                        "ram2": "Corsair Vengeance 128GB",
+                        "storage2": "samsung 980 Pro 2TB",
+                        "case2": "Lian Li PC-O11 Dynamic",
+                        "powerSupply2": "Corsair HX Platinum",
+                        "operatingSystem2": "Windows 10 Home",
+                        "description2": "This PC is a no expenses spared build. It includes all of the most expensive components that a consumer can buy",                   
+                        "caseImage2": "./pc-Images/IMG_20201107_003735_525.jpeg"
+                    }
             }
         }
     ]
