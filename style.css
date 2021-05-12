@@ -67,8 +67,8 @@ footer {
   box-shadow: 0 0 20px rgba(0,0,0, 0.15);
 }
 .content-table th{
-  background-color: #009879;
-  color: white;
+  background-color: #26ffac;
+  color: black;
   text-align:left;
 }
 
@@ -82,11 +82,14 @@ footer {
 }
 
 .content-table tr:nth-last-of-type(even){
-  background-color: #f3f3f3;
+  background-color: #57e2ad;
+}
+.content-table tr:nth-last-of-type(odd){
+  background-color: whitesmoke;
 }
 
 .content-table tr:last-of-type{
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #26ffac;
 }
 
 
