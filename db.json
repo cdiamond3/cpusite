@@ -58,7 +58,7 @@
             "cooling": ["laptop cooling", "included AMD fan cooling", "Corsair iCUE H150i" ],
             "motherboard": ["Proprietary to Laptop", "MSI B460M-A PRO", "ASUS PRIME TRX40-PRO"],
             "gpu": ["Intel UHD Graphics 600", "XFX RX 5500 XT", "Invidia RTX 3090"],
-            "ram": ["4 GB", "16 GB", "Corsair Vengeance 128GB", "Corsair Vengeance 128GB"],
+            "ram": ["4 GB of RAM", "16 GB of RAM", "Corsair Vengeance 128GB"],
             "storage": ["64 GB SSD", "ADATA 480GB SSD", "samsung 980 Pro 2TB"],
             "case": ["ASUS L203MA-DS04 VivoBook L203MA Laptop", "AeroCool Cylon", "Lian Li PC-O11 Dynamic"],
             "powerSupply": ["included with laptop", "Gigabyte 650W", "Corsair HX Platinum"],
