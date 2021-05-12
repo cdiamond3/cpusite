@@ -28,7 +28,6 @@ fetch(cpuUrl)
 .then(response => response.json()) //turn response to JSON
 .then(computerBuilds=> { //with that object
     //this case selects the enthusiast build
-   
 highButton.addEventListener('click', (e) => {
     
     const enthusiastBuildParts = computerBuilds[0].enthusiast.parts
@@ -49,6 +48,7 @@ lowButton.addEventListener('click', (e) => {
     createCpuTable(enthusiastBuildParts)
     pictureAndInfo(enthusiastBuildParts)
 })
+
 
     
 })
@@ -73,12 +73,13 @@ const pictureAndInfo = cpuObject => {
     // console.log(cpuObject.caseImage)
     computerImageTag.alt = 'Image of a computer built in this case!'
     computerPicDiv.append(computerImageTag)
-
+    
     //text section
-
+    
     aboutThisComputer.innerText = cpuObject.description
     whyPcDiv.append(aboutThisComputer)
     console.log(aboutThisComputer)
-   
+    
 }
 
+    
