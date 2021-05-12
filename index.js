@@ -50,6 +50,8 @@ lowButton.addEventListener('click', (e) => {
 })
 
 
+
+
     
 })
 const createCpuTable = cpuObject => {

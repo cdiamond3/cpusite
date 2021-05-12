@@ -32,7 +32,7 @@ img{
 h1:hover{font-size: 72px}
 
 main {
-  width: 100;
+
   min-height: 100vh;
   background-color: rgb(89, 189, 223);
   position: relative;
@@ -43,7 +43,6 @@ footer {
   position: sticky;
   bottom: 0;
   left: 0;
-  width: 100%;
   background: #ffffff;
   display: grid;
   place-items: center;
@@ -58,8 +57,10 @@ footer {
 } */
 
 .content-table{
+  position: relative;
+  left: 5%;
   border-collapse: collapse;
-  margin: 25px 0;
+  /* margin: 25px 0; */
   font-size: 0.9em;
   min-width: 400px;
   border-radius: 5px 5px 0 0;
@@ -88,7 +89,6 @@ footer {
 .content-table tr:last-of-type{
   border-bottom: 2px solid #009879;
 }
-
 
 header {
   position: relative;
@@ -178,4 +178,19 @@ h3 {
   flex-wrap: wrap;
   display: flex;
   justify-content:right;
+}
+
+.searchInput {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-color: black;
+}
+
+.searchBar {
+  position: relative;
+  left: 40%;
 }
