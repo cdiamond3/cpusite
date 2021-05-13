@@ -1,5 +1,5 @@
 # cpusite
-Tell us what you use, we'll tell you what you need!
+Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that are currently in it
 
 # Table of Contents
 CPUSite is a webpage that matches a user to the computer build that is right for them! Follow the prompts and we will suggest a part list for you!
@@ -23,13 +23,13 @@ json-server --watch db.json
 Open a terminal inside of Visual Studio Code using the control+` shortcut and type in `lite-server`.
 
 # Features
- - Pick select which type of computer user that you are
- - select your desired budget
+ - Pick what you want in your compute
  - a suggested part list with info will display on the page
 
 ### To-do List:
  - convert the buttons into a drop down list
  - add a form that allows users to adjust the part list
+ - add a feature that takes into account budget to dynamically match parts based on desired budget limitations
 
 # Inspiration
 The Inspiration for CPUSite came from a shared hobby that we, the creators, shared together. We set out to build an interactive web app that helps people select a part list that fits their needs.
