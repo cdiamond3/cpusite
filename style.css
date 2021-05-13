@@ -1,16 +1,32 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: hotpink;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .headerMain {
   display: flex;
   justify-content: center;;
   padding: 60px;
   font-size: 45px;
-  transition: font-size .75s linear;
+  /* transition: font-size .75s linear; */
 }
 
-h2 {
+/* h2 {
   display: flex;
   justify-content: center;;
-  /* transition: font-size 1s linear; */
-}
+  transition: font-size 1s linear;
+}  */
 
 .comp {
   display: flex;
@@ -23,7 +39,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(191, 245, 240);
+  background-color: rgba(255, 255, 255, 0.863);
 }
 
 img{
@@ -33,10 +49,10 @@ img{
   border: solid rgb(0, 0, 0);
 }
 
-.headerMain:hover{font-size: 72px}
+/* .headerMain:hover{font-size: 72px} */
 
 main {
-  background-color: rgb(89, 189, 223);
+  background-image: url(https://wallpaperaccess.com/full/3379035.jpg);
   position: relative;
   z-index: 1;
   font: 16px/1.4 system-ui, sans-serif;
@@ -52,9 +68,6 @@ footer {
   padding: 50px;
 }
 
- * {
-  box-sizing: border-box;
-} 
 body {
   margin: 0;
 } 
@@ -100,7 +113,7 @@ header {
   position: relative;
   height: 300px;
   width: 100%;
-  background-image: linear-gradient(#2f71ff, #26ffac);
+  /* background-image: linear-gradient(#2f71ff, #26ffac); */
 }
 
 h1 {
@@ -154,7 +167,7 @@ button {
 
 button:hover,
 button:focus {
-  background: #0bfdb5;
+background: rgba(69, 97, 139, 0.863);
 }
 
 button:focus {
@@ -168,8 +181,16 @@ button:active {
 
 .buttons {
   display: flex;
+  color: white;
+  flex-direction: row;
   justify-content: center;
-  font-size: 24pt;
+  /* font-size: 24pt; */
+  background-color: rgba(69, 97, 139, 0.863);
+  transition: background-color .50s linear;
+}
+
+.buttons:hover {
+  background-color: #1c3997d3;
 }
 
 h3 {
@@ -192,14 +213,14 @@ h3 {
 .searchBar {
   flex-wrap: wrap;
   /* justify-content: center; */
-  position: absolute;
-  bottom: 75%;
+  position: relative;
+  top: 10%;
   left: 83%;
 }
 
 .comp {
   position: absolute;
-  left: 5%;
+  left: 43%;
 }
 
 ul {
@@ -209,8 +230,8 @@ ul {
 .returnedParts {
   display: none;
   position: relative;
-  left: -350%;
-
+  right: 10%;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -220,7 +241,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(89, 189, 223);
+  background-color: rgb(0, 0, 0);
 }
 
 .navList {
@@ -229,7 +250,7 @@ ul {
 
 .navList a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -237,7 +258,7 @@ ul {
 
 /* Change the link color to #111 (black) on hover */
 .navList a:hover {
-  background-color: #26ffac;
+  background-color: #2684ffd3;
 }
 
 .info {
@@ -249,6 +270,11 @@ ul {
 .header2 {
   position: relative;
   top: 1%;
+  transition: font-size .05s linear;
+}
+
+.header2:hover {
+  font-size: 42px;
 }
 
 .why-Pc {
@@ -260,3 +286,18 @@ ul {
   justify-content:right;
 }
 
+.midInfo {
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.selectorHeader {
+  transition: font-size .25s linear;
+}
+
+.selectorHeader:hover{font-size: 46px}
+
+.productsText {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-shadow: 20px rgba(0,0,0, 0.15)
+}
