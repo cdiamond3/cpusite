@@ -2,9 +2,8 @@
 Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that we included in our custom builds
 
 # Table of Contents
-CPUSite is a webpage that matches a user to the computer build that is right for them! Follow the prompts and we will suggest a part list for you!
-
-# [Intro Video](#intro-video)
+ - (#intro-video)
+# [Intro Video]
 need a link to the video that we create
 
 # [Technologies](#technologies)
