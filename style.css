@@ -12,13 +12,15 @@ html,body
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .headerMain {
   display: flex;
   justify-content: center;;
   padding: 60px;
-  font-size: 45px;
+  font-size: 175px;
+  text-shadow: black;
   /* transition: font-size .75s linear; */
 }
 
@@ -84,7 +86,7 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0, 0.15);
 }
 .content-table th{
-  background-color: #26ffac;
+  background-color: rgb(46, 140, 228)ac;
   color: black;
   text-align:left;
 }
@@ -99,14 +101,14 @@ body {
 }
 
 .content-table tr:nth-last-of-type(even){
-  background-color: #57e2ad;
+  background-color: #17adc7d3;
 }
 .content-table tr:nth-last-of-type(odd){
   background-color: whitesmoke;
 }
 
 .content-table tr:last-of-type{
-  border-bottom: 2px solid #26ffac;
+  border-bottom: 2px solid rgba(69, 97, 139, 0.863);
 }
 
 header {
@@ -180,6 +182,7 @@ button:active {
 }
 
 .buttons {
+  font-size: 28px;
   display: flex;
   color: white;
   flex-direction: row;
@@ -215,7 +218,7 @@ h3 {
   /* justify-content: center; */
   position: relative;
   top: 10%;
-  left: 83%;
+  left: 45%;
 }
 
 .comp {
@@ -287,6 +290,7 @@ ul {
 }
 
 .midInfo {
+  font-size: 36px;
   background-color: rgba(255, 255, 255, 0.863);
 }
 
