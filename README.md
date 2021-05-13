@@ -1,8 +1,15 @@
 # cpusite
-Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that are currently in it
+Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that we included in our custom builds
 
 # Table of Contents
-CPUSite is a webpage that matches a user to the computer build that is right for them! Follow the prompts and we will suggest a part list for you!
+ - [Intro Video](#intro-video)
+ - [Technologies](#technologies)
+ - [Setup](#setup)
+ - [Features](#features)
+ - [To-Do List](#to-do-list)
+ - [Inspiration](#inspiration)
+ - [Contact](#contact)
+ - [License](#license)
 
 # Intro Video
 need a link to the video that we create
@@ -12,19 +19,20 @@ need a link to the video that we create
  - CSS
  - Javascript
  - lite-server
+ - json-server
  - Visual Studio Code
 
 # Setup 
-To get this website running you need to - fork/clone this repository down to your local machine. In your terminal navigate to your new localrepository that contains the db.json file. once open the directiory in Visual Studio Code using the `code .` command.
+To get this website running you need to - fork/clone this repository down to your local machine. In your terminal navigate to your new local repository that contains the db.json file and open that directiory in Visual Studio Code using the `code .` command.
 Copy and paste the command below into your terminal window to start your database on localhost:3000.
 ```
 json-server --watch db.json
 ```
-Open a terminal inside of Visual Studio Code using the control+` shortcut and type in `lite-server`.
+Open a terminal inside of Visual Studio Code and run the `lite-server` command to start a localhost:3001 server.
 
 # Features
- - Pick what you want in your compute
- - a suggested part list with info will display on the page
+ - select the type fo computer you would like to have and we will give you a suggested part list with a small description about that build.
+ - you can search through our part list to see the names of specific items.
 
 ### To-do List:
  - convert the buttons into a drop down list
@@ -32,10 +40,10 @@ Open a terminal inside of Visual Studio Code using the control+` shortcut and ty
  - add a feature that takes into account budget to dynamically match parts based on desired budget limitations
 
 # Inspiration
-The Inspiration for CPUSite came from a shared hobby that we, the creators, shared together. We set out to build an interactive web app that helps people select a part list that fits their needs.
+The Inspiration for CPUSite came from a hobby that we share together. We set out to build an interactive web app that helps people select a part list that fits their needs.
 
 # Contact
-Created by Chris Diamond and Keith Funk
+Created by Chris Diamond: [Github](https://github.com/cdiamond3)/[Linkedin](https://www.linkedin.com/in/chrisdiamondeng/) and Keith Funk: [Github](https://github.com/Sunset05)/[Linkedin](https://www.linkedin.com/in/keith-funk-7082a315b/)
 
 # License
 need to add?

@@ -13,7 +13,7 @@
                     "case": "Lian Li PC-O11 Dynamic",
                     "powerSupply": "Corsair HX Platinum",
                     "operatingSystem": "Windows 10 Home",
-                    "description": "This PC is a no expenses spared build. It includes all of the most expensive components that a consumer can buy",                   
+                    "description": "This computer build is a no expenses spared build that will run you a cool $6159 USD. It includes all of the most expensive components that you could buy. If you need to run any of the most recent games with max video settings and at 4k resolution than this is the computer for you! It can also handle all of the latest virtual reality applications currently available. This machine not only excells at gaming, but would also work very well as a professional video editing/animation computer capable of rendering in 3d",                   
                     "caseImage": "./pc-Images/IMG_20201107_003735_525.jpeg"
                 }
             },
@@ -29,7 +29,7 @@
                     "case": "AeroCool Cylon",
                     "powerSupply": "Gigabyte 650W",
                     "operatingSystem": "Windows 10 Home",
-                    "description": "This pc is right for you if you are are trying to play video games at 1080p on medium-high settings. It will run all of the popular games well, and is a great place to start if you are trying to be kind to your wallet!",                   
+                    "description": "This computer build is designed to be able to run most games on high video settings at 1080p resolution. It is quite budget friendly and would cost $775 USD to buy the parts individually.  It will run all of the popular games well, and is a great place to start if you are trying to break into the PC gaming scene",                   
                     "caseImage": "./pc-Images/Cylon-PanelOff.jpeg"
                 }
             },
@@ -45,7 +45,7 @@
                     "case": "ASUS L203MA-DS04 VivoBook",
                     "powerSupply": "included with laptop",
                     "operatingSystem": "Windows 10 Home",
-                    "description": "This machine is perfect for those that want a computer for general surfing and watching shows on your faovirte streaming platform. It is budget friendly and incredibly mobile - you can surf the web and stream as long as you are connected to the internet!",                   
+                    "description": "This machine is perfect for those that want a computer for general surfing and watching shows on your favorite streaming platform. The price for this laptop is $270 USD which makes it very budget friendly. You can surf the web and stream as long as you are connected to the internet!",                   
                     "caseImage": "pc-Images/ASUS-L203MA-DS04-VivoBook-L203MA-Laptop.jpg"
                 }
             }
