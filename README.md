@@ -3,10 +3,18 @@ Tell us what you want out of your computer and we will suggest a part list for a
 
 # Table of Contents
  - [Intro Video](#intro-video)
+ - [Technologies](#technologies)
+ - [Setup](#setup)
+ - [Features](#features)
+ - [To-Do List](#to-do-list)
+ - [Inspiration](#inspiration)
+ - [Contact](#contact)
+ - [License](#license)
+
 # Intro Video
 need a link to the video that we create
 
-# [Technologies](#technologies)
+# Technologies
  - HTML5
  - CSS
  - Javascript
@@ -35,7 +43,7 @@ Open a terminal inside of Visual Studio Code and run the `lite-server` command t
 The Inspiration for CPUSite came from a hobby that we share together. We set out to build an interactive web app that helps people select a part list that fits their needs.
 
 # Contact
-Created by Chris Diamond and Keith Funk
+Created by Chris Diamond: [Github](https://github.com/cdiamond3)/[Linkedin](https://www.linkedin.com/in/chrisdiamondeng/) and Keith Funk: [Github](https://github.com/Sunset05)/[Linkedin](https://www.linkedin.com/in/keith-funk-7082a315b/)
 
 # License
 need to add?
