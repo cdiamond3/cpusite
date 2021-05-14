@@ -9,7 +9,6 @@ Tell us what you want out of your computer and we will suggest a part list for a
  - [To-Do List](#to-do-list)
  - [Inspiration](#inspiration)
  - [Contact](#contact)
- - [License](#license)
 
 # Intro Video
 [Introduction to our website!](https://www.youtube.com/watch?v=m2oY6DGa_9U)
@@ -45,6 +44,3 @@ The Inspiration for CPUSite came from a hobby that we share together. We set out
 
 # Contact
 Created by Chris Diamond: [Github](https://github.com/cdiamond3)/[Linkedin](https://www.linkedin.com/in/chrisdiamondeng/) and Keith Funk: [Github](https://github.com/Sunset05)/[Linkedin](https://www.linkedin.com/in/keith-funk-7082a315b/)
-
-# License
-need to add?
