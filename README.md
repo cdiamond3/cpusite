@@ -12,7 +12,7 @@ Tell us what you want out of your computer and we will suggest a part list for a
  - [License](#license)
 
 # Intro Video
-need a link to the video that we create
+[Introduction to our website!](https://www.youtube.com/watch?v=m2oY6DGa_9U)
 
 # Technologies
  - HTML5
