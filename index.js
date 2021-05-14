@@ -1,4 +1,4 @@
-//variable declarations that grab/modify DOM elements
+
 const computerContainer = document.querySelector('.computer-Container')
 const cpuTablePart = document.querySelector('.cpu')
 const coolingTablePart = document.querySelector('.cooling')
@@ -159,3 +159,5 @@ function searchParts(event) {
         } 
     })
 }
+
+
