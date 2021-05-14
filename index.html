@@ -2,84 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script defer type="text/javascript" src="index.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+  <title>Cpu 4 U - Custom Computer Part Lists!</title>
 </head>
 
 <body>
-    <div>
-        <h1> CPU 4 U </h1>
-        <h2>Build Your PC</h2><br><br>
-        <p>
-            <h3>Compluter Selector</h3>
-            <form>
-                <label>Why Do You Want a PC?</label><br><br>
-                <input type="checkbox" id="input" name="input">I need a 3090 or bust<br>
-                <input type="checkbox" id="input" name="input">ePic GaMer<br>
-                <input type="checkbox" id="input" name="input">Surfing The Web<br><br>
-                <label>What Is Your Budget?</label><br><br>
-                <input type="checkbox" id="input" name="input">High<br>
-                <input type="checkbox" id="input" name="input">Mid<br>
-                <input type="checkbox" id="input" name="input">Low<br><br>
-                <input type="submit" value="Submit" id="submitButton">
-              </form>
+  <main>
+    <header>
+      <h1 class="headerMain"> CPU 4 U </h1>
+    </header><br>
+    <ul class="navBar">
+      <li class="navList"><a href="https://www.amazon.com/Ninja-Good-Ultimate-Guide-Gaming/dp/1984826751/ref=asc_df_1984826751/?tag=hyprod-20&linkCode=df0&hvadid=366433096757&hvpos=&hvnetw=g&hvrand=2231292787473326816&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028776&hvtargid=pla-809762382202&psc=1&tag=&ref=&adgrpid=78795692760&hvpone=&hvptwo=&hvadid=366433096757&hvpos=&hvnetw=g&hvrand=2231292787473326816&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9028776&hvtargid=pla-809762382202">BECOME A PRO GAMER!</a></li>
+      <li class="navList"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">GTX 30 SERIES SALE</a></li>
+      <li class="navList"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">PS5 OVERSTOCK</a></li>
+      <li class="navList"><a href="about.asp"></a></li>
+    </ul><br><br>
+    <div class="midInfo">
+      <h1 class="head2">Build Your PC</h1>
+      <div class="searchBar">
+        <h2 class="productsText">Our Products</h2>
+        <input id="search"  type="text" name="Search" placeholder="Search For Product...">
+        <ul id="filterList">
+        </ul>
+      </div><br><br><br>
+    <p class="info"> Our experts have designed premade computer builds based on our top picks for your style and price range!</p><br><br>
+  </div>
+  <div class="buttons">
+      <h2 class="selectorHeader">Computer Selector</h><br>
+      <button class="high">🖥️ I need a 3090!</button><br>
+      <button class="mid">🎮  Fortnite!</button> <br>
+      <button class="low">👵  I need the google machine!</button><br>
     </div>
+    <h2 class="comp">Your Computer</h2>
     <div class='computer-Container'>
-        <h2>Your Computer</h2>
-        <div class='computer-Specs'>
-            <table>
-                <tr>
-                  <th>Component</th>
-                  <th>Part</th>
-                </tr>
-                <tr>
-                  <td class='cpu'></td>
-                  <td class='cpu'></td>
-                </tr>
-                <tr>
-                  <td class='cooling'></td>
-                  <td class='cooling'></td>
-                </tr>
-                <tr>
-                  <td class='Motherboard'></td>
-                  <td class='Motherboard'></td>
-                </tr>
-                <tr>
-                  <td class='gpu'></td>
-                  <td class='gpu'></td>
-                </tr>
-                <tr>
-                  <td class='ram'></td>
-                  <td class='ram'></td>
-                </tr>
-                <tr>
-                  <td class='storage'></td>
-                  <td class='storage'></td>
-                </tr>
-                <tr>
-                  <td class='case'></td>
-                  <td class='case'></td>
-                </tr>
-                <tr>
-                  <td class='power-Supply'></td>
-                  <td class='power-Supply'></td>
-                </tr>
-                <tr>
-                  <td class='operating-System'></td>
-                  <td class='operating-System'></td>
-                </tr>
-              </table>
-        </div>
-        <div class='computer-Pic'>
-
-        </div>
-        <div class='why-Pc'>
-
-        </div>
+      <div class='computer-Specs'>
+        <table class="content-table">
+          <tr>
+            <th>Component</th>
+            <th>Part</th>
+          </tr>
+          <tr>
+            <td>CPU</td>
+            <td class='cpu'></td>
+          </tr>
+          <tr>
+            <td>Cooling</td>
+            <td class='cooling'></td>
+          </tr>
+          <tr>
+            <td>MotherBoard</td>
+            <td class='motherboard'></td>
+          </tr>
+          <tr>
+            <td>GPU</td>
+            <td class='gpu'></td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td class='ram'></td>
+          </tr>
+          <tr>
+            <td>Storage</td>
+            <td class='storage'></td>
+          </tr>
+          <tr>
+            <td>Case</td>
+            <td class='case'></td>
+          </tr>
+          <tr>
+            <td>Power Supply Unit</td>
+            <td class='power-Supply'></td>
+          </tr>
+          <tr>
+            <td>Operating System</td>
+            <td class='operating-System'></td>
+          </tr>
+        </table>
+      </div>
+      <div class='computer-Pic'>
+      </div>
+      <div class='why-Pc'>
+      </div>
     </div>
+  </div>
+  <!-- <img class="Twitter" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png">  -->
+</main>
+<footer>
+  <svg width="200" height="200">
+    <image
+    class="footerImage" href="https://www.kindpng.com/picc/m/114-1140931_14-computer-technology-clip-art-icon-images-clipart.png"
+    width="200" />
+  </svg>
+</footer>
 </body>
+
 </html>

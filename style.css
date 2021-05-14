@@ -1,3 +1,306 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: hotpink;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: center;;
+  padding: 60px;
+  font-size: 175px;
+  text-shadow: black;
+  /* transition: font-size .75s linear; */
+}
+
+
+.comp {
+  display: flex;
+  justify-content: left;;
+  transition: font-size 1s linear;
+}
+
+.computer-Container {
+  flex-wrap: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+img{
+  position: relative;
+  top: 25%;
+  width: 350px;
+  border: solid rgb(0, 0, 0);
+}
+
+/* .headerMain:hover{font-size: 72px} */
+
+main {
+  background-image: url(https://wallpaperaccess.com/full/3379035.jpg);
+  position: relative;
+  z-index: 1;
+  font: 16px/1.4 system-ui, sans-serif;
+  padding-bottom: 10%;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background: #f5f5f5;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+body {
+  margin: 0;
+} 
+
+.content-table{
+  position: relative;
+  left: 5%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow:hidden;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.15);
+}
+.content-table th{
+  background-color: rgb(46, 140, 228)ac;
+  color: black;
+  text-align:left;
+}
+
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
+
+.content-table tr{
+  border-bottom:1px solid #dddddd;
+}
+
+.content-table tr:nth-last-of-type(even){
+  background-color: #17adc7d3;
+}
+.content-table tr:nth-last-of-type(odd){
+  background-color: whitesmoke;
+}
+
+.content-table tr:last-of-type{
+  border-bottom: 2px solid rgba(69, 97, 139, 0.863);
+}
+
+header {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  /* background-image: linear-gradient(#2f71ff, #26ffac); */
+}
+
+h1 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.headerGraphic {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 699px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .svg--sm {
+    display: none;
+  }
+}
+
+
+button {
+  justify-content: center;
+  font-size: 50pt;
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #006bed00;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+background: rgba(69, 97, 139, 0.863);
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.buttons {
+  font-size: 28px;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  /* font-size: 24pt; */
+  background-color: rgba(69, 97, 139, 0.863);
+  transition: background-color .50s linear;
+}
+
+.buttons:hover {
+  background-color: #1c3997d3;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+
+.searchInput {
+  float: left;
+  /* padding: 6px; */
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-color: rgb(0, 0, 0);
+}
+
+
+.searchBar {
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  position: relative;
+  top: 10%;
+  left: 45%;
+}
+
+.comp {
+  position: absolute;
+  left: 43%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.returnedParts {
+  display: none;
+  position: relative;
+  right: 10%;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.navList {
+  float: left;
+}
+
+.navList a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navList a:hover {
+  background-color: #2684ffd3;
+}
+
+.info {
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 35px;
+}
+
+.header2 {
+  position: relative;
+  top: 1%;
+  transition: font-size .05s linear;
+}
+
+.header2:hover {
+  font-size: 42px;
+}
+
+.why-Pc {
+  padding: -1%;
+  font-size: 18px;
+  width: 30%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content:right;
+}
+
+.midInfo {
+  font-size: 36px;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.selectorHeader {
+  transition: font-size .25s linear;
+}
+
+.selectorHeader:hover{font-size: 46px}
+
+.productsText {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-shadow: 20px rgba(0,0,0, 0.15)
+}
+
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -41,3 +344,4 @@
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+

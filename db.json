@@ -2,21 +2,67 @@
     "Suggested-Computer": [
         {
             "enthusiast": {
-                "price": 0,
+                "price": 6159,
                 "parts": {
-                    "cpu": "AMD Ryzen Threadripper 3960X",
-                    "cooling": "AIO",
-                    "Motherboard": "ASUS PRIME TRX40-PRO",
+                    "cpu": "AMD Ryzen Threadripper 3969X",
+                    "cooling": "Corsair iCUE H150i",
+                    "motherboard": "ASUS PRIME TRX40-PRO",
                     "gpu": "Invidia RTX 3090",
-                    "ram": "32gb",
-                    "storage": "NVME M.2",
-                    "Case": "Lian Li PC-O11 Dynamic",
-                    "PowerSupply": "Corsair HX Platinum",
-                    "Operating-System": "Windows 10 Home",
-                    "Description": "This PC is a no expenses spared build. It includes all of the most expensive components for "                   
+                    "ram": "Corsair Vengeance 128GB",
+                    "storage": "samsung 980 Pro 2TB",
+                    "case": "Lian Li PC-O11 Dynamic",
+                    "powerSupply": "Corsair HX Platinum",
+                    "operatingSystem": "Windows 10 Home",
+                    "description": "This computer build is a no expenses spared build that will run you a cool $6159 USD. It includes all of the most expensive components that you could buy. If you need to run any of the most recent games with max video settings and at 4k resolution than this is the computer for you! It can also handle all of the latest virtual reality applications currently available. This machine not only excells at gaming, but would also work very well as a professional video editing/animation computer capable of rendering in 3d",                   
+                    "caseImage": "./pc-Images/IMG_20201107_003735_525.jpeg"
+                }
+            },
+            "epicGamer": {
+                "price": 775,
+                "parts": {
+                    "cpu": "Intel Core i3-10100f",
+                    "cooling": "included with CPU",
+                    "motherboard": "MSI B460M-A PRO",
+                    "gpu": "XFX RX 5500 XT",
+                    "ram": "16 GB",
+                    "storage": "ADATA 480GB SSD",
+                    "case": "AeroCool Cylon",
+                    "powerSupply": "Gigabyte 650W",
+                    "operatingSystem": "Windows 10 Home",
+                    "description": "This computer build is designed to be able to run most games on high video settings at 1080p resolution. It is quite budget friendly and would cost $775 USD to buy the parts individually.  It will run all of the popular games well, and is a great place to start if you are trying to break into the PC gaming scene",                   
+                    "caseImage": "./pc-Images/Cylon-PanelOff.jpeg"
+                }
+            },
+            "surfinAndStreaming":{
+                "price": 270,
+                "parts": {
+                    "cpu": "Intel Celeron N4000 Processor",
+                    "cooling": "pre-installed",
+                    "motherboard": "Proprietary to Laptop",
+                    "gpu": "Intel UHD Graphics 600",
+                    "ram": "4 GB",
+                    "storage": "64 GB SSD",
+                    "case": "ASUS L203MA-DS04 VivoBook",
+                    "powerSupply": "included with laptop",
+                    "operatingSystem": "Windows 10 Home",
+                    "description": "This machine is perfect for those that want a computer for general surfing and watching shows on your favorite streaming platform. The price for this laptop is $270 USD which makes it very budget friendly. You can surf the web and stream as long as you are connected to the internet!",                   
+                    "caseImage": "pc-Images/ASUS-L203MA-DS04-VivoBook-L203MA-Laptop.jpg"
                 }
             }
-
         }
-    ]
+    ],
+    "allParts":{
+        "price": 100000,
+        "parts": {
+            "cpu": ["Intel Celeron N4000 Processor", "Intel Core i3-10100f","AMD Ryzen Threadripper 3969X"],
+            "cooling": ["laptop cooling", "included AMD fan cooling", "Corsair iCUE H150i" ],
+            "motherboard": ["Proprietary to Laptop", "MSI B460M-A PRO", "ASUS PRIME TRX40-PRO"],
+            "gpu": ["Intel UHD Graphics 600", "XFX RX 5500 XT", "Invidia RTX 3090"],
+            "ram": ["4 GB of RAM", "16 GB of RAM", "Corsair Vengeance 128GB"],
+            "storage": ["64 GB SSD", "ADATA 480GB SSD", "samsung 980 Pro 2TB"],
+            "case": ["ASUS L203MA-DS04 VivoBook L203MA Laptop", "AeroCool Cylon", "Lian Li PC-O11 Dynamic"],
+            "powerSupply": ["included with laptop", "Gigabyte 650W", "Corsair HX Platinum"],
+            "operatingSystem": ["Windows 10 Home"]
+        }
+    }
 }
