@@ -21,6 +21,7 @@ Tell us what you want out of your computer and we will suggest a part list for a
  - lite-server
  - json-server
  - Visual Studio Code
+ - Node.Js
 
 # Setup 
 To get this website running you need to - fork/clone this repository down to your local machine. In your terminal navigate to your new local repository that contains the db.json file and open that directiory in Visual Studio Code using the `code .` command.
