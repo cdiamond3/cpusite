@@ -1,4 +1,4 @@
-# cpusite
+# CPU site
 Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that we included in our custom builds
 
 # Table of Contents
@@ -12,7 +12,7 @@ Tell us what you want out of your computer and we will suggest a part list for a
  - [License](#license)
 
 # Intro Video
-need a link to the video that we create
+[Introduction to our website!](https://www.youtube.com/watch?v=m2oY6DGa_9U)
 
 # Technologies
  - HTML5
@@ -21,6 +21,7 @@ need a link to the video that we create
  - lite-server
  - json-server
  - Visual Studio Code
+ - Node.Js
 
 # Setup 
 To get this website running you need to - fork/clone this repository down to your local machine. In your terminal navigate to your new local repository that contains the db.json file and open that directiory in Visual Studio Code using the `code .` command.
