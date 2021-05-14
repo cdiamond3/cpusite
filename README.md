@@ -1,4 +1,4 @@
-# cpusite
+# CPU site
 Tell us what you want out of your computer and we will suggest a part list for a custom computer build. You can also search through our database for any of the parts that we included in our custom builds
 
 # Table of Contents
